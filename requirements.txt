@@ -59,7 +59,7 @@ sklearn-crfsuite==0.3.6
 subprocess32==3.5.3
 tabulate==0.8.2
 tensorboard==1.11.0
-tensorflow==1.11.0
+tensorflow==1.15.0
 termcolor==1.1.0
 tqdm==4.27.0
 Twisted==18.9.0
