@@ -2,11 +2,12 @@
 
 ## Setup
 ```
-virtualenv venv
+python3 -m venv venv
 source venv/bin/activate
 pip install 'rasa_nlu[tensorflow]'
 pip install -r requirements.txt
 ```
+
 ## Run
 ```
 python -m rasa_nlu.train -c nlu_config.yml --data nlu.md --verbose

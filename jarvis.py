@@ -6,13 +6,13 @@ DEBUG = True
 CONFIDENCE_THRESHOLD = 0.5
 FALLBACK_INTENT = 'N/A'
 
-interpreter = Interpreter.load('./models/nlu/default/model_20181019-141714')
+interpreter = Interpreter.load('./models/nlu/default/model_20200227-181310')
 
 
 def extract_structured_data(interpreter, query):
     result = interpreter.parse(query)
     if DEBUG:
-        print json.dumps(result, indent=2)
+        print(json.dumps(result, indent=2))
     data = {
         'text': query,
         'intent': FALLBACK_INTENT,
@@ -35,7 +35,7 @@ if '__main__' == __name__:
         'show me a xkcd comic'
     ]
 
-    print 'Extracting intents from queries...'
+    print('Extracting intents from queries...')
     for query in queries:
         data = extract_structured_data(interpreter, query)
-        print data
+        print(data)
