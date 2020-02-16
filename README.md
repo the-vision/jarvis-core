@@ -1,5 +1,12 @@
 # jarvis-core
 
+The core of Just A Rather Very Intelligent System!
+
+![Python](https://img.shields.io/badge/python-3.7-blue.svg)
+[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/the-vision/jarvis-core/master/LICENSE)
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
+
 ## Setup
 ```
 python3 -m venv venv
