@@ -23,3 +23,7 @@ curl 'http://localhost:5000/version'
 curl 'http://localhost:5000/parse?q=roll+a+die'
 curl 'http://localhost:5000/parse?q=songs+by+linkin+park'
 ```
+
+You can also hit the blue Open in Gitpod button below to launch a ready-to-code environment (a VS Code-like interface in the browser with the dependencies pre-installed and the web server running).
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/the-vision/jarvis-core/)

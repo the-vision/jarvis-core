@@ -1,0 +1,6 @@
+tasks:
+- init: pip3 install -r requirements.txt
+  command: python3 -m rasa_nlu.train -c config.yml --data data/nlu.md --verbose && python3 -m rasa_nlu.server -c config.yml --path models/nlu --response_log models --verbose
+ports:
+- port: 5000
+  onOpen: open-preview
