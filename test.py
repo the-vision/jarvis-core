@@ -33,7 +33,8 @@ if '__main__' == __name__:
         'roll a die',
         'songs by linkin park',
         'show me a xkcd comic',
-        'hello'
+        'hello',
+        'thanks'
     ]
 
     print('Extracting intents from queries...')
