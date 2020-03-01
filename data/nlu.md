@@ -9,3 +9,8 @@
 ## intent:xkcd
 - xkcd
 - show me a xkcd comic
+
+## intent:hello
+- hey
+- hello
+- hi
