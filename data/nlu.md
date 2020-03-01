@@ -9,3 +9,8 @@
 ## intent:xkcd
 - xkcd
 - show me a xkcd comic
+
+## intent:quote
+- quote
+- quote of the day
+- show me a quote
