@@ -13,3 +13,5 @@
 ## intent:travel
 - travel
 - show me travel options
+- where do you want to travel
+- how can I travel there
