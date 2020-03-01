@@ -10,7 +10,7 @@
 - xkcd
 - show me a xkcd comic
 
-## intent:greet
+## intent:hello
 - hey
 - hello
 - hi
