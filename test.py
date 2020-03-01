@@ -1,12 +1,13 @@
-import os
-import requests
+from rasa_nlu.model import Interpreter
 
 CONFIDENCE_THRESHOLD = 0.5
 FALLBACK_INTENT = 'N/A'
-PORT = os.environ.get('PORT', '5000')
+
+interpreter = Interpreter.load('./models/nlu/default/test')
 
 
-def extract_structured_data(query, result):
+def extract_structured_data(query):
+    result = interpreter.parse(query)
     data = {
         'input': query,
         'intent': FALLBACK_INTENT,
@@ -52,7 +53,6 @@ if '__main__' == __name__:
     ]
 
     for query in queries:
-        response = requests.get('http://0.0.0.0:' + PORT + '/parse?q=' + query['input'])
-        data = extract_structured_data(query['input'], response.json())
+        data = extract_structured_data(query['input'])
         print (data)
         assert (data == query)

@@ -5,6 +5,6 @@ cache: pip
 install:
   - pip install -r requirements.txt
 before_script:
-  - python -m rasa_nlu.train -c config.yml --data data/nlu.md --verbose && python -m rasa_nlu.server -c config.yml --path models/nlu --response_log models --verbose
+  - python -m rasa_nlu.train -c config.yml --data data/nlu.md --fixed_model_name test
 script:
   - python test.py
