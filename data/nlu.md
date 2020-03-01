@@ -14,3 +14,9 @@
 - hey
 - hello
 - hi
+
+## intent:travel
+- travel
+- show me travel options
+- where do you want to go
+- how can I travel there
