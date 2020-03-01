@@ -6,7 +6,7 @@ DEBUG = True
 CONFIDENCE_THRESHOLD = 0.5
 FALLBACK_INTENT = 'N/A'
 
-interpreter = Interpreter.load('./models/nlu/default/model_20200227-224723')
+interpreter = Interpreter.load('./models/nlu/default/model_20200301-071030')
 
 
 def extract_structured_data(interpreter, query):
@@ -32,7 +32,8 @@ if '__main__' == __name__:
     queries = [
         'roll a die',
         'songs by linkin park',
-        'show me a xkcd comic'
+        'show me a xkcd comic',
+        'hello'
     ]
 
     print('Extracting intents from queries...')
