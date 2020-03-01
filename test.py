@@ -6,7 +6,7 @@ DEBUG = True
 CONFIDENCE_THRESHOLD = 0.5
 FALLBACK_INTENT = 'N/A'
 
-interpreter = Interpreter.load('./models/nlu/default/model_20200301-071030')
+interpreter = Interpreter.load('./models/nlu/default/model_20200227-224723')
 
 
 def extract_structured_data(interpreter, query):
