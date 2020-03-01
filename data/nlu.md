@@ -15,3 +15,8 @@
 - show me travel options
 - where do you want to travel
 - how can I travel there
+
+## intent:hello
+- hey
+- hello
+- hi
