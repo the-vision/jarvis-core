@@ -1,20 +1,14 @@
-from rasa_nlu.model import Interpreter
+import os
+import requests
 
-import json
-
-DEBUG = True
 CONFIDENCE_THRESHOLD = 0.5
 FALLBACK_INTENT = 'N/A'
+PORT = os.environ.get('PORT', '5000')
 
-interpreter = Interpreter.load('./models/nlu/default/model_20200227-224723')
 
-
-def extract_structured_data(interpreter, query):
-    result = interpreter.parse(query)
-    if DEBUG:
-        print(json.dumps(result, indent=2))
+def extract_structured_data(query, result):
     data = {
-        'text': query,
+        'input': query,
         'intent': FALLBACK_INTENT,
         'entities': []
     }
@@ -30,14 +24,40 @@ def extract_structured_data(interpreter, query):
 
 if '__main__' == __name__:
     queries = [
-        'roll a die',
-        'songs by linkin park',
-        'show me a xkcd comic',
-        'hello',
-        'thanks'
+        {
+            'input': 'roll a die',
+            'intent': 'dice',
+            'entities': []
+        },
+        {
+            'input': 'songs by linkin park',
+            'intent': 'music',
+            'entities': [
+                {
+                    'name': 'song',
+                    'value': 'linkin park'
+                }
+            ]
+        },
+        {
+            'input': 'show me a xkcd comic',
+            'intent': 'xkcd',
+            'entities': []
+        },
+        {
+            'input': 'hey',
+            'intent': 'hello',
+            'entities': []
+        },
+        {
+            'input': 'thanks',
+            'intent': 'thanks',
+            'entities': []
+        }
     ]
 
-    print('Extracting intents from queries...')
     for query in queries:
-        data = extract_structured_data(interpreter, query)
-        print(data)
+        response = requests.get('http://0.0.0.0:' + PORT + '/parse?q=' + query['input'])
+        data = extract_structured_data(query['input'], response.json())
+        print (data)
+        assert (data == query)
