@@ -10,7 +10,14 @@
 - xkcd
 - show me a xkcd comic
 
+
 ## intent:hello
 - hey
 - hello
 - hi
+
+## intent:quote
+- quote
+- quote of the day
+- show me a quote
+
