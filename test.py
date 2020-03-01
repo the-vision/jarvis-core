@@ -50,6 +50,10 @@ if '__main__' == __name__:
             'intent': 'hello',
             'entities': []
         },
+        {
+            'input': 'travel',
+            'intent': 'travel',
+            'entities': []
     ]
 
     for query in queries:
