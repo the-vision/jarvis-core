@@ -18,4 +18,4 @@
 ## intent:thanks
 - thanks
 - thank you
-- thanks a lot !
+- thanks a lot
