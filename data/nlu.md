@@ -10,7 +10,6 @@
 - xkcd
 - show me a xkcd comic
 
-
 ## intent:hello
 - hey
 - hello
@@ -18,6 +17,5 @@
 
 ## intent:quote
 - quote
-- quote of the day
+- random quote
 - show me a quote
-
