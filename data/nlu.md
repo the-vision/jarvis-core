@@ -20,3 +20,8 @@
 - show me travel options
 - where do you want to go
 - how can I travel there
+
+## intent:quote
+- quote
+- random quote
+- show me a quote
