@@ -15,7 +15,7 @@
 - hello
 - hi
 
-## intent:thanks
-- thanks
-- thank you
-- thanks a lot
+## intent:quote
+- quote
+- random quote
+- show me a quote

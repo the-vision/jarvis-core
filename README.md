@@ -2,6 +2,8 @@
 
 The core of Just A Rather Very Intelligent System!
 
+[![Build Status](https://travis-ci.org/the-vision/jarvis-core.svg?branch=master)](https://travis-ci.org/the-vision/jarvis-core)
+
 ![Python](https://img.shields.io/badge/python-3.7-blue.svg)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/the-vision/jarvis-core/master/LICENSE)
