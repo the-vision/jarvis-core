@@ -9,3 +9,8 @@
 ## intent:xkcd
 - xkcd
 - show me a xkcd comic
+
+## intent:request
+- i would request you to play a song
+- i would request you to drive fast
+- i would request you to open the windows
