@@ -19,3 +19,8 @@
 - quote
 - random quote
 - show me a quote
+
+## intent:thanks
+- thanks
+- thank you
+- thanks a lot
