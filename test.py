@@ -51,9 +51,9 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input':'show me a quote',
+            'input': 'show me a quote',
             'intent': 'quote',
-            'entities':[]
+            'entities': []
         },
     ]
 
