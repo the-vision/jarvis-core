@@ -19,3 +19,8 @@
 - quote
 - random quote
 - show me a quote
+
+## intent:movie
+- movie
+- random movie
+- show me a movie
