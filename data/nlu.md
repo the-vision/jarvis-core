@@ -14,3 +14,8 @@
 - hey
 - hello
 - hi
+
+## intent:quote
+- quote
+- random quote
+- show me a quote
