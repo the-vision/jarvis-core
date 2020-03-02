@@ -54,6 +54,7 @@ if '__main__' == __name__:
             'input': 'travel',
             'intent': 'travel',
             'entities': []
+        },
     ]
 
     for query in queries:
