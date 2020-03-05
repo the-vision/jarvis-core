@@ -19,3 +19,8 @@
 - quote
 - random quote
 - show me a quote
+
+## intent:coin
+- coin
+- flip a coin
+- flip again
