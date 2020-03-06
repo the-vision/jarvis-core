@@ -24,3 +24,8 @@
 - thanks
 - thank you
 - thanks a lot
+
+## intent:coin
+- coin
+- flip a coin
+- flip again
