@@ -20,6 +20,11 @@
 - random quote
 - show me a quote
 
+## intent:thanks
+- thanks
+- thank you
+- thanks a lot
+
 ## intent:coin
 - coin
 - flip a coin
