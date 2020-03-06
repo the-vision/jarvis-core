@@ -55,6 +55,11 @@ if '__main__' == __name__:
             'intent': 'quote',
             'entities': []
         },
+        {
+            'input': 'thank you',
+            'intent': 'thanks',
+            'entities': []
+        },
     ]
 
     for query in queries:
