@@ -56,11 +56,6 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'show me a joke',
-            'intent': 'joke',
-            'entities': []
-        },
-        {
             'input': 'thank you',
             'intent': 'thanks',
             'entities': []
@@ -68,6 +63,11 @@ if '__main__' == __name__:
         {
             'input': 'flip a coin',
             'intent': 'coin',
+            'entities': []
+        },
+         {
+            'input': 'show me a joke',
+            'intent': 'joke',
             'entities': []
         },
     ]
