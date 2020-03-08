@@ -20,6 +20,11 @@
 - random quote
 - show me a quote
 
+## intent:joke
+- joke
+- random joke
+- show me a joke
+
 ## intent:thanks
 - thanks
 - thank you
