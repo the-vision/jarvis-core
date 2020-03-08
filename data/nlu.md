@@ -35,3 +35,8 @@
 - coin
 - flip a coin
 - flip again
+
+## intent:fact
+- fact
+- random fact
+- show me a fact

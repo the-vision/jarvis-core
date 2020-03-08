@@ -70,6 +70,11 @@ if '__main__' == __name__:
             'intent': 'coin',
             'entities': []
         },
+        {
+            'input': 'fact',
+            'intent': 'fact',
+            'entities': []
+        },
     ]
 
     for query in queries:
