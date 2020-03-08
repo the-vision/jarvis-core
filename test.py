@@ -55,6 +55,11 @@ if '__main__' == __name__:
             'intent': 'quote',
             'entities': []
         },
+           {
+            'input': 'show me a joke',
+            'intent': 'joke',
+            'entities': []
+        },
         {
             'input': 'thank you',
             'intent': 'thanks',
