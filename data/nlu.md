@@ -40,3 +40,13 @@
 - fact
 - random fact
 - show me a fact
+
+## intent:bye
+- bye
+- see you again
+- bye bye
+- see you
+- peace out
+- peace
+- goodbye
+
