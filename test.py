@@ -65,7 +65,7 @@ if '__main__' == __name__:
             'intent': 'coin',
             'entities': []
         },
-	{
+        {
             'input': 'goodbye',
             'intent': 'bye',
             'entities': []
