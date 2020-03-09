@@ -30,6 +30,11 @@
 - flip a coin
 - flip again
 
+## intent:fact
+- fact
+- random fact
+- tell me a fact
+
 ## intent:bye
 - bye
 - see you again
