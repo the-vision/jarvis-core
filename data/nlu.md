@@ -29,3 +29,8 @@
 - coin
 - flip a coin
 - flip again
+
+## intent:translator
+- translate
+- translate this text
+- translate this message
