@@ -68,7 +68,7 @@ if '__main__' == __name__:
 	{
             'input': 'goodbye',
             'intent': 'bye',
-            'entities'=[]
+            'entities': []
         },
     ]
 
