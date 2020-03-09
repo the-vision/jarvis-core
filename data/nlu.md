@@ -15,12 +15,6 @@
 - hello
 - hi
 
-## intent:travel
-- travel
-- show me travel options
-- where do you want to go
-- how can I travel there
-
 ## intent:quote
 - quote
 - random quote
@@ -39,7 +33,7 @@
 ## intent:fact
 - fact
 - random fact
-- show me a fact
+- tell me a fact
 
 ## intent:bye
 - bye
@@ -49,4 +43,3 @@
 - peace out
 - peace
 - goodbye
-
