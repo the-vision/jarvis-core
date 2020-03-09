@@ -38,3 +38,9 @@
 - peace out
 - peace
 - goodbye
+
+## intent:help
+- help
+- help me
+- please help me
+- guide me
