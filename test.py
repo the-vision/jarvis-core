@@ -71,7 +71,7 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'fact',
+            'input': 'tell me a fact',
             'intent': 'fact',
             'entities': []
         },
