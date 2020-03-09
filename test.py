@@ -65,6 +65,11 @@ if '__main__' == __name__:
             'intent': 'coin',
             'entities': []
         },
+        {
+            'input': 'translate this text',
+            'intent': 'translator',
+            'entities': []
+        },
     ]
 
     for query in queries:
