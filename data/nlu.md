@@ -29,3 +29,12 @@
 - coin
 - flip a coin
 - flip again
+
+## intent:bye
+- bye
+- see you again
+- bye bye
+- see you
+- peace out
+- peace
+- goodbye
