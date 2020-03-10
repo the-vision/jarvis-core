@@ -75,6 +75,27 @@ if '__main__' == __name__:
             'intent': 'bye',
             'entities': []
         },
+        {
+            'input' : 'movies by disney'
+            'intent': 'movie',
+            'entities': [
+                {
+                    'name': 'movie',
+                    'value': 'disney'
+                }
+            ]
+        },
+        {
+            
+            'input' : 'movies by christophar nolan'
+            'intent': 'movie',
+            'entities': [
+                {
+                    'name': 'movie',
+                    'value': 'christopher nolan'
+                }
+            ]
+        }
     ]
 
     for query in queries:
