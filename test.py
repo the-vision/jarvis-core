@@ -125,6 +125,11 @@ if '__main__' == __name__:
             'intent': 'help',
             'entities': []
         },
+        {
+            'input': 'random joke',
+            'intent': 'joke',
+            'entities': []
+        },
     ]
 
     for query in queries:

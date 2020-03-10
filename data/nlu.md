@@ -83,3 +83,9 @@
 - help me
 - please help me
 - guide me
+
+## intent:joke
+- joke
+- tell me a joke
+- random joke
+- one more joke
