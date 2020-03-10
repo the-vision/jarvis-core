@@ -43,3 +43,10 @@
 - peace out
 - peace
 - goodbye
+
+## intent:joke
+- joke
+- random joke
+- tell me a joke
+- one more joke
+
