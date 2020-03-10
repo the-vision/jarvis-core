@@ -95,7 +95,7 @@ if '__main__' == __name__:
                     'value': 'christopher nolan'
                 }
             ]
-        }
+        },
     ]
 
     for query in queries:
