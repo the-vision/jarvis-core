@@ -43,3 +43,7 @@
 - peace out
 - peace
 - goodbye
+
+## intent:movie
+- movies by [disney](movie)
+- play [disney](movie) movie
