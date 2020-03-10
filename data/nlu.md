@@ -43,3 +43,9 @@
 - peace out
 - peace
 - goodbye
+
+## intent:movies
+- movies by [disney](movie)
+- play [disney](movie) movie
+- movies by [christopher nolan](movie)
+- play [christopher nolan](movie) movie
