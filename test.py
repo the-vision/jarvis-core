@@ -76,7 +76,7 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'what\'s the score',
+            'input': 'what is the score',
             'intent': 'score',
             'entities': []
         },
