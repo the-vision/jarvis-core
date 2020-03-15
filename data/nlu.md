@@ -46,7 +46,7 @@
 
 ## intent: Score
 - Score
-- What's the Score
+- what's the Score
 - match Score
 - today's match Score
 - what's happening in match
