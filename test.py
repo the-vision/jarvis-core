@@ -75,6 +75,11 @@ if '__main__' == __name__:
             'intent': 'bye',
             'entities': []
         },
+        {
+            'input': "what's the score",
+            'intent': 'score',
+            'entities': []
+        },
     ]
 
     for query in queries:
