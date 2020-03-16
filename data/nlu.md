@@ -44,8 +44,8 @@
 - peace
 - goodbye
 
-## intent: Score
-- Score
+## intent: score
+- score
 - what is the Score
 - match Score
 - today's match Score
