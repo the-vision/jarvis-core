@@ -53,12 +53,7 @@ if '__main__' == __name__:
         {
             'input': 'how can I travel there',
             'intent': 'travel',
-            'entities': [
-                {
-                    'name': 'destination',
-                    'value': 'destination'
-                }
-            ]
+            'entities': []
         },
         {
             'input': 'show me a quote',
