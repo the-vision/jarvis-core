@@ -19,7 +19,8 @@
 - travel
 - show me travel options
 - where do you want to go
-- how can I travel there
+- I want to travel [there](destination)
+- how can I travel [there](destination)
 
 ## intent:quote
 - quote
