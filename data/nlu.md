@@ -50,3 +50,6 @@
 - tell me a joke
 - one more joke
 
+## intent:currency
+- 100 usd to inr
+- 50 eur to usd
