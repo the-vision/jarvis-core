@@ -75,6 +75,11 @@ if '__main__' == __name__:
             'intent': 'bye',
             'entities': []
         },
+        {
+            'input': 'news',
+            'intent': 'news',
+            'entities': []
+        },
     ]
 
     for query in queries:
