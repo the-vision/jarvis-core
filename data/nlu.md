@@ -43,3 +43,8 @@
 - peace out
 - peace
 - goodbye
+
+## intent:news
+- latest news
+- news
+- show me latest news
