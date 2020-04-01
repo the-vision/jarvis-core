@@ -48,3 +48,11 @@
 - latest news
 - news
 - show me latest news
+
+## intent:joke
+- joke
+- random joke
+- tell me a joke
+- one more joke
+
+
