@@ -81,13 +81,13 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': '100 usd to inr',
+            'input': '100 USD to INR',
             'intent': 'currency',
             'entities': [
                 {
                     'amount': [{'value':'100'}],
-                    'from_currency': [{'value':'usd'}],
-                    'to_currency': [{'value':'inr'}]
+                    'from_currency': [{'value':'USD'}],
+                    'to_currency': [{'value':'INR'}]
                 }
             ]
         }

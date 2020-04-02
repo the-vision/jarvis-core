@@ -51,5 +51,9 @@
 - one more joke
 
 ## intent:currency
-- 100 usd to inr
-- 50 eur to usd
+- 100 USD to INR
+- 50 EUR to USD
+- 80 INR to BGN
+- 20 SGD to CAD
+- 10 SEK to AUD
+- 60 QAR to JAR
