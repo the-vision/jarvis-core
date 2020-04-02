@@ -80,6 +80,15 @@ if '__main__' == __name__:
             'intent': 'joke',
             'entities': []
         },
+        {
+            'input': 'define cloud',
+            'intent': 'dictionary',
+            'entities': [
+                {
+                    'text': [{'value':'cloud'}]
+                }  
+            ]
+        }
     ]
 
     for query in queries:
