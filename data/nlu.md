@@ -50,3 +50,8 @@
 - tell me a joke
 - one more joke
 
+## intent:dictionary
+- define space
+- cloud definition
+- what does server mean?
+- what is meant by happiness?
