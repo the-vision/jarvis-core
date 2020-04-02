@@ -80,6 +80,17 @@ if '__main__' == __name__:
             'intent': 'joke',
             'entities': []
         },
+        {
+            'input': '100 USD to INR',
+            'intent': 'currency',
+            'entities': [
+                {
+                    'amount': [{'value':'100'}],
+                    'from_currency': [{'value':'USD'}],
+                    'to_currency': [{'value':'INR'}]
+                }
+            ]
+        }
     ]
 
     for query in queries:
