@@ -51,3 +51,9 @@
 - today's match score
 - what's happening in match
 - match updates
+## intent:joke
+- joke
+- random joke
+- tell me a joke
+- one more joke
+
