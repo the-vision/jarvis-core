@@ -44,7 +44,13 @@
 - peace
 - goodbye
 
-## intent:translator
+## intent: translator
 - translate
 - translate this text
 - translate this message
+
+## intent:joke
+- joke
+- random joke
+- tell me a joke
+- one more joke

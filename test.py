@@ -80,6 +80,11 @@ if '__main__' == __name__:
             'intent': 'bye',
             'entities': []
         },
+        {
+            'input': 'random joke',
+            'intent': 'joke',
+            'entities': []
+        },
     ]
 
     for query in queries:
