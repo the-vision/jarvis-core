@@ -44,7 +44,7 @@
 - peace
 - goodbye
 
-## intent: translator
+## intent:translate
 - translate
 - translate this text
 - translate this message
