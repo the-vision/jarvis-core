@@ -71,7 +71,7 @@ if '__main__' == __name__:
             'entities': [
                 {
                     'name':'translate',
-                    'value':'german'
+                    'value':'text'
                 }
             ]
         },
