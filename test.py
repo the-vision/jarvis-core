@@ -68,7 +68,12 @@ if '__main__' == __name__:
         {
             'input': 'translate this text',
             'intent': 'translator',
-            'entities': []
+            'entities': [
+                {
+                    'name':'translate',
+                    'value':'german'
+                }
+            ]
         },
         {
             'input': 'tell me a fact',
