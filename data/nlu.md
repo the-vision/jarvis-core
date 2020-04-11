@@ -50,3 +50,8 @@
 - tell me a joke
 - one more joke
 
+## intent:wiki
+- [cloud](wiki) wiki
+- who is [starlord](wiki)
+- wikipedia [markdown](wiki)
+- find [server](wiki) in wikipedia
