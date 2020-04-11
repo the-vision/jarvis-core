@@ -1,0 +1,14 @@
+input_features:
+    -
+        name: Questions
+        type: text
+        level: word
+        encoder: parallel_cnn
+
+output_features:
+    -
+        name: Category0
+        type: category
+    -
+        name: Category2
+        type: category        
