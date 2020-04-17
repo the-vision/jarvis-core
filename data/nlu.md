@@ -15,6 +15,20 @@
 - hello
 - hi
 
+## intent: time
+- time
+- what's time now
+- time please
+
+## intent: Convert time
+- 13 EDT Monday to GMT
+- 2 CST  Wednesday to IST
+- 11 GMT Thursday to IST
+- 23 IST Friday to EDT
+- 5 GST Monday to CST
+- 9 PDT Sunday to IST
+
+
 ## intent:quote
 - quote
 - random quote

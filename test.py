@@ -51,6 +51,27 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'What is time now',
+            'intent': 'time',
+            'entities': [{
+                'timing':[{'value': 'time'}],
+
+            }]
+    	    
+         },
+         {
+             'input': '2 CST  Wednesday to IST',
+            'intent': 'Convert time',
+            'entities': [
+                {
+                    'timing': [{'value':'2'}],
+                    'from_timeZone': [{'value':'CST'}],
+                    'day' : [{'value': 'Wednesday'}],
+                    'to_timeZone': [{'value':'IST'}]
+                }
+            ]
+         },
+        {
             'input': 'show me a quote',
             'intent': 'quote',
             'entities': []
