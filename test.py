@@ -87,6 +87,17 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': '100 meter to yard',
+            'intent': 'length unit conversion',
+            'entities': [
+                {
+                    'digit': [{'value':'100'}],
+                    'from_unit': [{'value':'meter'}],
+                    'to_unit': [{'value':'yard'}]
+                }
+            ]
+        },
+        {
             'input': 'tell me a fact',
             'intent': 'fact',
             'entities': []

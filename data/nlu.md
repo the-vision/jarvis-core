@@ -44,6 +44,26 @@
 - flip a coin
 - flip again
 
+# intent: length unit conversion
+
+- 10 centimeter to inche
+- 100 meter to yard
+- 1000 centimeter to meter
+- 50  inche to millimeter
+- 200 nanometer to meter
+- 20 square meter to square centimeter
+- 100 squard mile to
+- 100 cm to inches
+- 10 kg to lbs
+- 100 mm to inches
+- 20 meters to feet
+- 1000 km to miles
+- 200 cm to feet
+- 100 meters to yards
+- 10 feet to cm
+- 10 feet to inches
+- 100 square feet to acres
+
 ## intent:fact
 - fact
 - random fact
