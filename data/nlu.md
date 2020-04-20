@@ -50,3 +50,8 @@
 - tell me a joke
 - one more joke
 
+## intent:weather
+- weather
+- weather today
+- How is the weather today
+- tell me about the weather
