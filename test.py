@@ -76,6 +76,11 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'news',
+            'intent': 'news',
+            'entities': []
+        },
+        {
             'input': 'random joke',
             'intent': 'joke',
             'entities': []

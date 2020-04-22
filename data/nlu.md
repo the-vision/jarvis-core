@@ -44,6 +44,11 @@
 - peace
 - goodbye
 
+## intent:news
+- latest news
+- news
+- show me latest news
+
 ## intent:joke
 - joke
 - random joke
