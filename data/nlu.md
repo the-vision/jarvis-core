@@ -54,5 +54,3 @@
 - random joke
 - tell me a joke
 - one more joke
-
-
