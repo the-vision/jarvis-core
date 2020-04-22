@@ -85,6 +85,16 @@ if '__main__' == __name__:
             'intent': 'joke',
             'entities': []
         },
+        {
+            'input': 'find server in wikipedia',
+            'intent': 'wiki',
+            'entities': [
+                {
+                    'name': 'wiki',
+                    'value': 'server'
+                }
+            ]
+        }
     ]
 
     for query in queries:
