@@ -112,6 +112,17 @@ if '__main__' == __name__:
             'intent': 'joke',
             'entities': []
         },
+        {
+            'input':'100 celsius to fahrenheit',
+            'intent':'change temperature'
+            'entities':[
+                {
+                    'temperature': [{'value':'100'}],
+                    'from_temperature': [{'value':'celsius'}],
+                    'to_temperature': [{'value':'fahrenheit'}]
+                }
+            ]
+        },
     ]
 
     for query in queries:

@@ -84,3 +84,11 @@
 - tell me a joke
 - one more joke
 
+## intent:change temperature
+- 100 celsius to fahrenheit
+- 50 rankine to celsius
+- 75 kelvin to centigrade
+- 10 fahrenheit to rankine
+- 85 centigrade to celsius
+
+
