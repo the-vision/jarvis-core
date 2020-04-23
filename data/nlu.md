@@ -51,7 +51,7 @@
 - one more joke
 
 ## intent:dictionary
-- define space
-- cloud definition
-- what does server mean?
-- what is meant by happiness?
+- define [space](word)
+- [cloud](word) definition
+- what does [server](word) mean?
+- what is meant by [happiness](word)?

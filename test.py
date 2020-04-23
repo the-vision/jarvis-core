@@ -3,7 +3,7 @@ from rasa_nlu.model import Interpreter
 CONFIDENCE_THRESHOLD = 0.5
 FALLBACK_INTENT = 'N/A'
 
-interpreter = Interpreter.load('./models/nlu/default/test')
+interpreter = Interpreter.load('./models/nlu/default/model_20200423-123926')
 
 
 def extract_structured_data(query):
@@ -81,11 +81,12 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'define cloud',
+            'input': 'define space',
             'intent': 'dictionary',
             'entities': [
                 {
-                    'text': [{'value':'cloud'}]
+                    'name': 'word',
+                    'value': 'space'
                 }  
             ]
         }
