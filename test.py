@@ -76,6 +76,11 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'news',
+            'intent': 'news',
+            'entities': []
+        },
+        {
             'input': 'random joke',
             'intent': 'joke',
             'entities': []
@@ -87,7 +92,17 @@ if '__main__' == __name__:
                 {
                     'name': 'word',
                     'value': 'space'
-                }  
+                }
+            ]
+        },
+        {
+            'input': 'find server in wikipedia',
+            'intent': 'wiki',
+            'entities': [
+                {
+                    'name': 'wiki',
+                    'value': 'server'
+                }
             ]
         }
     ]

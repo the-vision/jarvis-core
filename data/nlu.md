@@ -44,6 +44,11 @@
 - peace
 - goodbye
 
+## intent:news
+- latest news
+- news
+- show me latest news
+
 ## intent:joke
 - joke
 - random joke
@@ -55,3 +60,9 @@
 - [cloud](word) definition
 - what does [server](word) mean?
 - what is meant by [happiness](word)?
+
+## intent:wiki
+- [cloud](wiki) wiki
+- who is [starlord](wiki)
+- wikipedia [markdown](wiki)
+- find [server](wiki) in wikipedia
