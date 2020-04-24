@@ -51,9 +51,9 @@
 - one more joke
 
 ## intent:currency
-- 100 USD to INR
-- 50 EUR to USD
-- 80 INR to BGN
-- 20 SGD to CAD
-- 10 SEK to AUD
-- 60 QAR to JAR
+- [100](amount) [USD](from_currency) to [INR](to_currency)
+- [50](amount) [EUR](from_currency) to [USD](to_currency)
+- [80](amount) [INR](from_currency) to [BGN](to_currency)
+- [20](amount) [SGD](from_currency) to [CAD](to_currency)
+- [10](amount) [SEK](from_currency) to [AUD](to_currency)
+- [60](amount) [QAR](from_currency) to [JAR](to_currency)

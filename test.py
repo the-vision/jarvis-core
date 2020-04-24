@@ -85,9 +85,16 @@ if '__main__' == __name__:
             'intent': 'currency',
             'entities': [
                 {
-                    'amount': [{'value':'100'}],
-                    'from_currency': [{'value':'USD'}],
-                    'to_currency': [{'value':'INR'}]
+                    'name': 'amount',
+                    'value': '100'
+                },
+                {
+                    'name': 'from_currency',
+                    'value': 'USD'
+                },
+                {
+                    'name': 'to_currency',
+                    'value': 'INR'
                 }
             ]
         }
