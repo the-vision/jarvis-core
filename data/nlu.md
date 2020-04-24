@@ -44,6 +44,11 @@
 - peace
 - goodbye
 
+## intent:news
+- latest news
+- news
+- show me latest news
+
 ## intent:joke
 - joke
 - random joke
@@ -55,3 +60,14 @@
 - weather today
 - How is the weather today
 - tell me about the weather
+## intent:dictionary
+- define [space](word)
+- [cloud](word) definition
+- what does [server](word) mean?
+- what is meant by [happiness](word)?
+
+## intent:wiki
+- [cloud](wiki) wiki
+- who is [starlord](wiki)
+- wikipedia [markdown](wiki)
+- find [server](wiki) in wikipedia
