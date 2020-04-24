@@ -44,6 +44,11 @@
 - peace
 - goodbye
 
+## intent:news
+- latest news
+- news
+- show me latest news
+
 ## intent:joke
 - joke
 - random joke
@@ -57,3 +62,15 @@
 - [20](amount) [SGD](from_currency) to [CAD](to_currency)
 - [10](amount) [SEK](from_currency) to [AUD](to_currency)
 - [60](amount) [QAR](from_currency) to [JAR](to_currency)
+
+## intent:dictionary
+- define [space](word)
+- [cloud](word) definition
+- what does [server](word) mean?
+- what is meant by [happiness](word)?
+
+## intent:wiki
+- [cloud](wiki) wiki
+- who is [starlord](wiki)
+- wikipedia [markdown](wiki)
+- find [server](wiki) in wikipedia
