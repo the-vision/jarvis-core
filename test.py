@@ -90,6 +90,7 @@ if '__main__' == __name__:
             'intent': 'weather',
             'entities': []
         },
+        {
             'input':'define space',
             'intent': 'dictionary',
             'entities': [
