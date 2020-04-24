@@ -86,10 +86,6 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'weather today',
-            'intent': 'weather',
-            'entities': []
-        },
             'input':'define space',
             'intent': 'dictionary',
             'entities': [
@@ -108,7 +104,12 @@ if '__main__' == __name__:
                     'value': 'server'
                 }
             ]
-        }
+        },
+          {
+            'input': 'what is the score',
+            'intent': 'score',
+            'entities': []
+        },
     ]
 
     for query in queries:

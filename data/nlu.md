@@ -55,11 +55,6 @@
 - tell me a joke
 - one more joke
 
-## intent:weather
-- weather
-- weather today
-- How is the weather today
-- tell me about the weather
 ## intent:dictionary
 - define [space](word)
 - [cloud](word) definition
@@ -71,3 +66,11 @@
 - who is [starlord](wiki)
 - wikipedia [markdown](wiki)
 - find [server](wiki) in wikipedia
+
+## intent: score
+- score
+- what is the score
+- match score
+- today's match score
+- what's happening in match
+- match updates
