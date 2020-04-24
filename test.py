@@ -86,6 +86,16 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'define space',
+            'intent': 'dictionary',
+            'entities': [
+                {
+                    'name': 'word',
+                    'value': 'space'
+                }
+            ]
+        },
+        {
             'input': 'find server in wikipedia',
             'intent': 'wiki',
             'entities': [

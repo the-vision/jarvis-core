@@ -55,6 +55,12 @@
 - tell me a joke
 - one more joke
 
+## intent:dictionary
+- define [space](word)
+- [cloud](word) definition
+- what does [server](word) mean?
+- what is meant by [happiness](word)?
+
 ## intent:wiki
 - [cloud](wiki) wiki
 - who is [starlord](wiki)
