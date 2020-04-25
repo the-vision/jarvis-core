@@ -66,3 +66,11 @@
 - who is [starlord](wiki)
 - wikipedia [markdown](wiki)
 - find [server](wiki) in wikipedia
+
+# intent:anime
+- [detective conan](anime) anime
+- [death note](anime) status
+- anime rating of [one punch man](anime)
+- [dragon ball z](anime) stats
+- [overlord](anime) number of episodes
+- reviews of [goblin slayer](anime)

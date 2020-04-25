@@ -104,6 +104,16 @@ if '__main__' == __name__:
                     'value': 'server'
                 }
             ]
+        },
+        {
+            'input': 'detective conan anime',
+            'intent': 'anime',
+            'entities': [
+                {
+                    'name': 'anime',
+                    'value': 'detective conan'
+                }
+            ]
         }
     ]
 
