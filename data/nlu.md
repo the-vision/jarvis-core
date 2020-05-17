@@ -66,3 +66,8 @@
 - who is [starlord](wiki)
 - wikipedia [markdown](wiki)
 - find [server](wiki) in wikipedia
+
+## intent:video
+- videos by [eminem](search)
+- [starboy](search) videos
+- [post malone](search) video

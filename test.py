@@ -3,7 +3,7 @@ from rasa_nlu.model import Interpreter
 CONFIDENCE_THRESHOLD = 0.5
 FALLBACK_INTENT = 'N/A'
 
-interpreter = Interpreter.load('./models/nlu/default/test')
+interpreter = Interpreter.load('./models/nlu/default/model_20200517-081823')
 
 
 def extract_structured_data(query):
@@ -102,6 +102,16 @@ if '__main__' == __name__:
                 {
                     'name': 'wiki',
                     'value': 'server'
+                }
+            ]
+        },
+        {
+            'input': 'starboy videos',
+            'intent': 'video',
+            'entities': [
+                {
+                    'name': 'search',
+                    'value': 'starboy'
                 }
             ]
         }
