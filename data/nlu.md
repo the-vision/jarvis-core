@@ -66,3 +66,9 @@
 - who is [starlord](wiki)
 - wikipedia [markdown](wiki)
 - find [server](wiki) in wikipedia
+
+## intent:motivation
+- motivation
+- motivate
+- motivate me
+- give me some motivation

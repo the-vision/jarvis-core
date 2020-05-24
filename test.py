@@ -104,6 +104,11 @@ if '__main__' == __name__:
                     'value': 'server'
                 }
             ]
+        },
+        {
+            'input': 'motivate me',
+            'intent': 'motivation',
+            'entities': []
         }
     ]
 
