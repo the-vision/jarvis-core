@@ -96,6 +96,16 @@ if '__main__' == __name__:
             ]
         },
         {
+            'input': 'define server',
+            'intent': 'dictionary',
+            'entities': [
+                {
+                    'name': 'word',
+                    'value': 'server'
+                }
+            ]
+        },
+        {
             'input': 'find server in wikipedia',
             'intent': 'wiki',
             'entities': [
