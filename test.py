@@ -114,6 +114,11 @@ if '__main__' == __name__:
                     'value': 'server'
                 }
             ]
+        },
+        {
+            'input': 'show memes',
+            'intent': 'meme',
+            'entities': []
         }
     ]
 
