@@ -57,8 +57,13 @@
 
 ## intent:dictionary
 - define [space](word)
+- define [cloud](word) word
+- definition of [server](word)
 - [cloud](word) definition
+- meaning of [memory](word)
+- show [sky](word) meaning
 - what does [server](word) mean?
+- what is meant by [rocket](word)?
 - what is meant by [happiness](word)?
 
 ## intent:wiki
