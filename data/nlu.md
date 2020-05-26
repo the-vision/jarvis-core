@@ -83,3 +83,11 @@
 - help me
 - please help me
 - guide me
+
+## intent:anime
+- [detective conan](anime) anime
+- [death note](anime) anime
+- [dragon ball z](anime) anime
+- anime rating of [one punch man](anime)
+- [overlord](anime) anime review
+- [goblin slayer](anime) anime review

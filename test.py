@@ -124,7 +124,17 @@ if '__main__' == __name__:
             'input': 'help me',
             'intent': 'help',
             'entities': []
-        }
+        },
+        {
+            'input': 'detective conan anime',
+            'intent': 'anime',
+            'entities': [
+                {
+                    'name': 'anime',
+                    'value': 'detective conan'
+                }
+            ]
+        },
     ]
 
     for query in queries:
