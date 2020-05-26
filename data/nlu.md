@@ -69,8 +69,8 @@
 
 # intent:anime
 - [detective conan](anime) anime
-- [death note](anime) status
+- [death note](anime) anime
+- [dragon ball z](anime) anime
 - anime rating of [one punch man](anime)
-- [dragon ball z](anime) stats
-- [overlord](anime) number of episodes
-- reviews of [goblin slayer](anime)
+- [overlord](anime) anime review
+- [goblin slayer](anime) anime review
