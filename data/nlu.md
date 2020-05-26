@@ -77,3 +77,9 @@
 - show memes
 - one more meme
 - latest memes
+
+## intent:help
+- help
+- help me
+- please help me
+- guide me

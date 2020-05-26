@@ -119,6 +119,11 @@ if '__main__' == __name__:
             'input': 'show memes',
             'intent': 'meme',
             'entities': []
+        },
+        {
+            'input': 'help me',
+            'intent': 'help',
+            'entities': []
         }
     ]
 
