@@ -57,8 +57,13 @@
 
 ## intent:dictionary
 - define [space](word)
+- define [cloud](word) word
+- definition of [server](word)
 - [cloud](word) definition
+- meaning of [memory](word)
+- show [sky](word) meaning
 - what does [server](word) mean?
+- what is meant by [rocket](word)?
 - what is meant by [happiness](word)?
 
 ## intent:wiki
@@ -72,3 +77,23 @@
 - motivate
 - motivate me
 - give me some motivation
+=======
+## intent:meme
+- show me a meme
+- show memes
+- one more meme
+- latest memes
+
+## intent:help
+- help
+- help me
+- please help me
+- guide me
+
+## intent:anime
+- [detective conan](anime) anime
+- [death note](anime) anime
+- [dragon ball z](anime) anime
+- anime rating of [one punch man](anime)
+- [overlord](anime) anime review
+- [goblin slayer](anime) anime review
