@@ -121,9 +121,27 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'define space',
-            'intent': 'dictionary',
+            'input': '100 USD to INR',
+            'intent': 'currency',
             'entities': [
+                {
+                    'name': 'amount',
+                    'value': '100'
+                },
+                {
+                    'name': 'from_currency',
+                    'value': 'USD'
+                },
+                {
+                    'name': 'to_currency',
+                    'value': 'INR'
+                }
+            ]
+        },
+        {
+           'input': 'define space',
+           'intent': 'dictionary',
+           'entities': [
                 {
                     'name': 'word',
                     'value': 'space'

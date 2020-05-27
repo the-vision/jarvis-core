@@ -72,6 +72,14 @@
 - tell me a joke
 - one more joke
 
+## intent:currency
+- [100](amount) [USD](from_currency) to [INR](to_currency)
+- [50](amount) [EUR](from_currency) to [USD](to_currency)
+- [80](amount) [INR](from_currency) to [BGN](to_currency)
+- [20](amount) [SGD](from_currency) to [CAD](to_currency)
+- [10](amount) [SEK](from_currency) to [AUD](to_currency)
+- [60](amount) [QAR](from_currency) to [JAR](to_currency)
+
 ## intent:dictionary
 - define [space](word)
 - define [cloud](word) word
