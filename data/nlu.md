@@ -15,6 +15,11 @@
 - hello
 - hi
 
+## intent:travel
+- [vietnam](destination) travel options
+- I want to travel to [indonesia](destination)
+- how can I travel to [spain](destination)
+
 ## intent:quote
 - quote
 - random quote

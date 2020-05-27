@@ -51,6 +51,16 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'vietnam travel options',
+            'intent': 'travel',
+            'entities': [
+                {
+                    'name': 'destination',
+                    'value': 'vietnam'
+                }
+            ]
+        },
+        {
             'input': 'show me a quote',
             'intent': 'quote',
             'entities': []
