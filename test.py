@@ -96,6 +96,16 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'batman movie',
+            'intent': 'movie',
+            'entities': [
+                {
+                    'name': 'movie',
+                    'value': 'batman'
+                }
+            ]
+        },
+        {
             'input': 'news',
             'intent': 'news',
             'entities': []

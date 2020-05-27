@@ -49,6 +49,9 @@
 - peace
 - goodbye
 
+## intent:movie
+- [batman](movie) movie
+
 ## intent:translate
 - translate [hello](text)
 - translate [bye](text)
