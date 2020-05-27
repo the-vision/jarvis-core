@@ -1,0 +1,40 @@
+public static void updateOrCreateIntent(String projectId,
+                                         List<String> trainingPhrasesParts,
+                                         List<String> messageTexts) throws Exception {
+    // Instantiates a client
+    try (IntentsClient intentsClient = IntentsClient.create()) {
+      // check if the intent is present in the dialogflow
+      String newOrExistingIntent = "room.reservation";
+
+      // Set the project agent name using the projectID (my-project-id)
+      ProjectAgentName parent = ProjectAgentName.of(projectId);
+
+      boolean isFound = false;
+      Intent oldIntent = null;
+
+      // Performs the list intents request to check if the intent exist or not
+      for (Intent intent : intentsClient.listIntents(parent).iterateAll()) {
+        if(intent.getDisplayName().equals(newOrExistingIntent)) {
+          isFound = true;
+          oldIntent = intent;
+        }
+      }
+
+      if(isFound) {
+        // UPDATE
+
+        List<Intent> intents = Lists.newArrayList();
+        UpdateIntentRequest updateIntentRequest = UpdateIntentRequest.newBuilder()
+                .setIntent(
+                        oldIntent
+                )
+                //update the values you want
+                // ....
+                // ....
+                .build();
+
+        System.out.println("Updating the intent");
+        Intent response = intentsClient.updateIntent(updateIntentRequest);
+        System.out.format("Intent updated : %s\n", response);
+      } else {
+        // CREATE NEW ONE
