@@ -76,6 +76,16 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'translate hello',
+            'intent': 'translate',
+            'entities': [
+                {
+                    'name': 'text',
+                    'value': 'hello'
+                }
+            ]
+        },
+        {
             'input': 'tell me a fact',
             'intent': 'fact',
             'entities': []

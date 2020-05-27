@@ -49,6 +49,10 @@
 - peace
 - goodbye
 
+## intent:translate
+- translate [hello](text)
+- translate [bye](text)
+
 ## intent:news
 - latest news
 - news
