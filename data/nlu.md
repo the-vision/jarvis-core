@@ -45,5 +45,4 @@
 - goodbye
 
 ## intent:movie
-- movies by [disney](movie)
-- play [disney](movie) movie
+- [batman](movie) movie
