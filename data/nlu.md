@@ -15,6 +15,11 @@
 - hello
 - hi
 
+## intent:time
+- time
+- what's the time now
+- time please
+
 ## intent:travel
 - [vietnam](destination) travel options
 - I want to travel to [indonesia](destination)

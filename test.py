@@ -51,6 +51,11 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'What\'s the time?',
+            'intent': 'time',
+            'entities': []    	    
+        },
+        {
             'input': 'vietnam travel options',
             'intent': 'travel',
             'entities': [
