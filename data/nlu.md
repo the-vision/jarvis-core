@@ -16,11 +16,9 @@
 - hi
 
 ## intent:travel
-- travel
-- show me travel options
-- where do you want to go
-- I want to travel [there](destination)
-- how can I travel [there](destination)
+- [vietnam](destination) travel options
+- I want to travel to [indonesia](destination)
+- how can I travel to [spain](destination)
 
 ## intent:quote
 - quote
