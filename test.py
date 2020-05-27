@@ -51,6 +51,21 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'What\'s the time?',
+            'intent': 'time',
+            'entities': []    	    
+        },
+        {
+            'input': 'vietnam travel options',
+            'intent': 'travel',
+            'entities': [
+                {
+                    'name': 'destination',
+                    'value': 'vietnam'
+                }
+            ]
+        },
+        {
             'input': 'show me a quote',
             'intent': 'quote',
             'entities': []
@@ -66,6 +81,16 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'translate hello',
+            'intent': 'translate',
+            'entities': [
+                {
+                    'name': 'text',
+                    'value': 'hello'
+                }
+            ]
+        },
+        {
             'input': 'tell me a fact',
             'intent': 'fact',
             'entities': []
@@ -74,6 +99,16 @@ if '__main__' == __name__:
             'input': 'goodbye',
             'intent': 'bye',
             'entities': []
+        },
+        {
+            'input': 'batman movie',
+            'intent': 'movie',
+            'entities': [
+                {
+                    'name': 'movie',
+                    'value': 'batman'
+                }
+            ]
         },
         {
             'input': 'news',
@@ -114,15 +149,45 @@ if '__main__' == __name__:
             ]
         },
         {
-           'input': 'find server in wikipedia',
-           'intent': 'wiki',
-           'entities': [
+            'input': 'define server',
+            'intent': 'dictionary',
+            'entities': [
+                {
+                    'name': 'word',
+                    'value': 'server'
+                }
+            ]
+        },
+        {
+            'input': 'find server in wikipedia',
+            'intent': 'wiki',
+            'entities': [
                 {
                     'name': 'wiki',
                     'value': 'server'
                 }
             ]
-        }
+        },
+        {
+            'input': 'show memes',
+            'intent': 'meme',
+            'entities': []
+        },
+        {
+            'input': 'help me',
+            'intent': 'help',
+            'entities': []
+        },
+        {
+            'input': 'detective conan anime',
+            'intent': 'anime',
+            'entities': [
+                {
+                    'name': 'anime',
+                    'value': 'detective conan'
+                }
+            ]
+        },
     ]
 
     for query in queries:
