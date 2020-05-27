@@ -51,26 +51,20 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'What is time now',
+            'input': 'What\'s the time?',
             'intent': 'time',
-            'entities': [{
-                'timing':[{'value': 'time'}],
-
-            }]
-    	    
-         },
-         {
-             'input': '2 CST  Wednesday to IST',
-            'intent': 'Convert time',
+            'entities': []    	    
+        },
+        {
+            'input': 'vietnam travel options',
+            'intent': 'travel',
             'entities': [
                 {
-                    'timing': [{'value':'2'}],
-                    'from_timeZone': [{'value':'CST'}],
-                    'day' : [{'value': 'Wednesday'}],
-                    'to_timeZone': [{'value':'IST'}]
+                    'name': 'destination',
+                    'value': 'vietnam'
                 }
             ]
-         },
+        },
         {
             'input': 'show me a quote',
             'intent': 'quote',
@@ -87,6 +81,16 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'translate hello',
+            'intent': 'translate',
+            'entities': [
+                {
+                    'name': 'text',
+                    'value': 'hello'
+                }
+            ]
+        },
+        {
             'input': 'tell me a fact',
             'intent': 'fact',
             'entities': []
@@ -97,9 +101,74 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'batman movie',
+            'intent': 'movie',
+            'entities': [
+                {
+                    'name': 'movie',
+                    'value': 'batman'
+                }
+            ]
+        },
+        {
+            'input': 'news',
+            'intent': 'news',
+            'entities': []
+        },
+        {
             'input': 'random joke',
             'intent': 'joke',
             'entities': []
+        },
+        {
+            'input': 'define space',
+            'intent': 'dictionary',
+            'entities': [
+                {
+                    'name': 'word',
+                    'value': 'space'
+                }
+            ]
+        },
+        {
+            'input': 'define server',
+            'intent': 'dictionary',
+            'entities': [
+                {
+                    'name': 'word',
+                    'value': 'server'
+                }
+            ]
+        },
+        {
+            'input': 'find server in wikipedia',
+            'intent': 'wiki',
+            'entities': [
+                {
+                    'name': 'wiki',
+                    'value': 'server'
+                }
+            ]
+        },
+        {
+            'input': 'show memes',
+            'intent': 'meme',
+            'entities': []
+        },
+        {
+            'input': 'help me',
+            'intent': 'help',
+            'entities': []
+        },
+        {
+            'input': 'detective conan anime',
+            'intent': 'anime',
+            'entities': [
+                {
+                    'name': 'anime',
+                    'value': 'detective conan'
+                }
+            ]
         },
     ]
 
