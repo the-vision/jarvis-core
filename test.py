@@ -51,12 +51,12 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'how can I travel there',
+            'input': 'vietnam travel options',
             'intent': 'travel',
             'entities': [
                 {
                     'name': 'destination',
-                    'value': 'there'
+                    'value': 'vietnam'
                 }
             ]
         },
