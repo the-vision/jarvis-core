@@ -44,10 +44,9 @@
 - peace
 - goodbye
 
-## intent:translator
-- translate
-- translate this text
-- translate this message
+## intent:translate
+- translate [hello](text)
+- translate [bye](text)
 
 ## intent:joke
 - joke
