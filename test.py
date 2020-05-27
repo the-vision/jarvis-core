@@ -96,6 +96,16 @@ if '__main__' == __name__:
             ]
         },
         {
+            'input': 'define server',
+            'intent': 'dictionary',
+            'entities': [
+                {
+                    'name': 'word',
+                    'value': 'server'
+                }
+            ]
+        },
+        {
             'input': 'find server in wikipedia',
             'intent': 'wiki',
             'entities': [
@@ -114,7 +124,27 @@ if '__main__' == __name__:
                     'value': 'starboy'
                 }
             ]
-        }
+        },
+        {
+            'input': 'show memes',
+            'intent': 'meme',
+            'entities': []
+        },
+        {
+            'input': 'help me',
+            'intent': 'help',
+            'entities': []
+        },
+        {
+            'input': 'detective conan anime',
+            'intent': 'anime',
+            'entities': [
+                {
+                    'name': 'anime',
+                    'value': 'detective conan'
+                }
+            ]
+        },
     ]
 
     for query in queries:
