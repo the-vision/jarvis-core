@@ -66,12 +66,12 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'translate this text',
-            'intent': 'translator',
+            'input': 'translate hello',
+            'intent': 'translate',
             'entities': [
                 {
-                    'name':'translate',
-                    'value':'text'
+                    'name': 'text',
+                    'value': 'hello'
                 }
             ]
         },
