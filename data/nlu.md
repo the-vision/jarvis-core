@@ -73,9 +73,9 @@
 - find [server](wiki) in wikipedia
 
 ## intent:video
-- videos by [eminem](search)
-- [starboy](search) videos
-- [post malone](search) video
+- videos by [eminem](video)
+- [starboy](video) videos
+- [post malone](video) video
 
 ## intent:meme
 - show me a meme
