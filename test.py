@@ -121,10 +121,6 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input':'define space',
-            'intent': 'dictionary',
-        },
-        {
             'input': '100 USD to INR',
             'intent': 'currency',
             'entities': [
@@ -143,10 +139,7 @@ if '__main__' == __name__:
             ]
         },
         {
-           'input': '
-          
-          
-          ',
+           'input': 'define space',
            'intent': 'dictionary',
            'entities': [
                 {
