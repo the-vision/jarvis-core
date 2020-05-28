@@ -169,6 +169,16 @@ if '__main__' == __name__:
             ]
         },
         {
+            'input': 'post malone videos',
+            'intent': 'video',
+            'entities': [
+                {
+                    'name': 'video',
+                    'value': 'post malone'
+                }
+            ]
+        },
+        {
             'input': 'show memes',
             'intent': 'meme',
             'entities': []

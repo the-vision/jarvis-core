@@ -97,6 +97,11 @@
 - wikipedia [markdown](wiki)
 - find [server](wiki) in wikipedia
 
+## intent:video
+- videos by [eminem](video)
+- [starboy](video) videos
+- [post malone](video) video
+
 ## intent:meme
 - show me a meme
 - show memes
