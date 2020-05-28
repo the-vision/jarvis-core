@@ -116,12 +116,12 @@ if '__main__' == __name__:
             ]
         },
         {
-            'input': 'starboy videos',
+            'input': 'post malone videos',
             'intent': 'video',
             'entities': [
                 {
-                    'name': 'search',
-                    'value': 'starboy'
+                    'name': 'video',
+                    'value': 'post malone'
                 }
             ]
         },
