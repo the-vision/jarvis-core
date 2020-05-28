@@ -97,6 +97,14 @@
 - wikipedia [markdown](wiki)
 - find [server](wiki) in wikipedia
 
+## intent:score
+- score
+- what is the score
+- match score
+- today's match score
+- what's happening in match
+- match updates
+
 ## intent:video
 - videos by [eminem](video)
 - [starboy](video) videos

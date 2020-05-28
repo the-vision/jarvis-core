@@ -169,6 +169,11 @@ if '__main__' == __name__:
             ]
         },
         {
+            'input': 'what is the score',
+            'intent': 'score',
+            'entities': []
+        },
+        {
             'input': 'post malone videos',
             'intent': 'video',
             'entities': [
