@@ -15,6 +15,16 @@
 - hello
 - hi
 
+## intent:time
+- time
+- what's the time now
+- time please
+
+## intent:travel
+- [vietnam](destination) travel options
+- I want to travel to [indonesia](destination)
+- how can I travel to [spain](destination)
+
 ## intent:quote
 - quote
 - random quote
@@ -44,6 +54,13 @@
 - peace
 - goodbye
 
+## intent:movie
+- [batman](movie) movie
+
+## intent:translate
+- translate [hello](text)
+- translate [bye](text)
+
 ## intent:news
 - latest news
 - news
@@ -55,10 +72,23 @@
 - tell me a joke
 - one more joke
 
+## intent:currency
+- [100](amount) [USD](from_currency) to [INR](to_currency)
+- [50](amount) [EUR](from_currency) to [USD](to_currency)
+- [80](amount) [INR](from_currency) to [BGN](to_currency)
+- [20](amount) [SGD](from_currency) to [CAD](to_currency)
+- [10](amount) [SEK](from_currency) to [AUD](to_currency)
+- [60](amount) [QAR](from_currency) to [JAR](to_currency)
+
 ## intent:dictionary
 - define [space](word)
+- define [cloud](word) word
+- definition of [server](word)
 - [cloud](word) definition
+- meaning of [memory](word)
+- show [sky](word) meaning
 - what does [server](word) mean?
+- what is meant by [rocket](word)?
 - what is meant by [happiness](word)?
 
 ## intent:wiki
@@ -67,10 +97,35 @@
 - wikipedia [markdown](wiki)
 - find [server](wiki) in wikipedia
 
-## intent: score
+## intent:score
 - score
 - what is the score
 - match score
 - today's match score
 - what's happening in match
 - match updates
+
+## intent:video
+- videos by [eminem](video)
+- [starboy](video) videos
+- [post malone](video) video
+
+## intent:meme
+- show me a meme
+- show memes
+- one more meme
+- latest memes
+
+## intent:help
+- help
+- help me
+- please help me
+- guide me
+
+## intent:anime
+- [detective conan](anime) anime
+- [death note](anime) anime
+- [dragon ball z](anime) anime
+- anime rating of [one punch man](anime)
+- [overlord](anime) anime review
+- [goblin slayer](anime) anime review
