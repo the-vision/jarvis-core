@@ -51,6 +51,21 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'What\'s the time?',
+            'intent': 'time',
+            'entities': []    	    
+        },
+        {
+            'input': 'vietnam travel options',
+            'intent': 'travel',
+            'entities': [
+                {
+                    'name': 'destination',
+                    'value': 'vietnam'
+                }
+            ]
+        },
+        {
             'input': 'show me a quote',
             'intent': 'quote',
             'entities': []
@@ -66,6 +81,16 @@ if '__main__' == __name__:
             'entities': []
         },
         {
+            'input': 'translate hello',
+            'intent': 'translate',
+            'entities': [
+                {
+                    'name': 'text',
+                    'value': 'hello'
+                }
+            ]
+        },
+        {
             'input': 'tell me a fact',
             'intent': 'fact',
             'entities': []
@@ -74,6 +99,16 @@ if '__main__' == __name__:
             'input': 'goodbye',
             'intent': 'bye',
             'entities': []
+        },
+        {
+            'input': 'batman movie',
+            'intent': 'movie',
+            'entities': [
+                {
+                    'name': 'movie',
+                    'value': 'batman'
+                }
+            ]
         },
         {
             'input': 'news',
@@ -86,9 +121,27 @@ if '__main__' == __name__:
             'entities': []
         },
         {
-            'input': 'define space',
-            'intent': 'dictionary',
+            'input': '100 USD to INR',
+            'intent': 'currency',
             'entities': [
+                {
+                    'name': 'amount',
+                    'value': '100'
+                },
+                {
+                    'name': 'from_currency',
+                    'value': 'USD'
+                },
+                {
+                    'name': 'to_currency',
+                    'value': 'INR'
+                }
+            ]
+        },
+        {
+           'input': 'define space',
+           'intent': 'dictionary',
+           'entities': [
                 {
                     'name': 'word',
                     'value': 'space'
@@ -120,6 +173,22 @@ if '__main__' == __name__:
             'intent': 'motivation',
             'entities': []
         },
+        {
+            'input': 'what is the score',
+            'intent': 'score',
+            'entities': []
+        },
+        {
+            'input': 'post malone videos',
+            'intent': 'video',
+            'entities': [
+                {
+                    'name': 'video',
+                    'value': 'post malone'
+                }
+            ]
+        },
+        {
             'input': 'show memes',
             'intent': 'meme',
             'entities': []
