@@ -3,7 +3,7 @@ from rasa_nlu.model import Interpreter
 CONFIDENCE_THRESHOLD = 0.5
 FALLBACK_INTENT = 'N/A'
 
-interpreter = Interpreter.load('./models/nlu/default/<MODEL_ID>')
+interpreter = Interpreter.load('./models/nlu/default/test')
 
 
 def extract_structured_data(query):
