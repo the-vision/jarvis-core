@@ -26,9 +26,11 @@ curl 'http://localhost:5000/parse?q=roll+a+die'
 curl 'http://localhost:5000/parse?q=songs+by+linkin+park'
 ```
 
-## Testing
-1. The default path for models in `test.py` is `./models/nlu/default/test`. Replace "test" in the path with your model name in `models/nlu/default/`
-2. Run `python test.py`
+## Development / Testing
+1. Make changes in `data/nlu.md`.
+1. Run `python -m rasa_nlu.train -c config.yml --data data/nlu.md` to train a new model, which will appear under the `models/nlu/default/` folder.
+1. Change line 6 of `test.py` to the new folder created above, e.g. `interpreter = Interpreter.load('./models/nlu/default/model_20200526-231423')`
+1. Run `python test.py`
 
 You can also hit the blue Open in Gitpod button below to launch a ready-to-code environment (a VS Code-like interface in the browser with the dependencies pre-installed and the web server running).
 
