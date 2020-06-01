@@ -27,8 +27,7 @@ curl 'http://localhost:5000/parse?q=songs+by+linkin+park'
 ```
 
 ## Testing
-For testing the intents,
-1. Replace the path `./models/nlu/default/<MODEL_ID>` in `test.py` with the model name in `models/nlu/default/`
+1. The default path for models in `test.py` is `./models/nlu/default/test`. Replace "test" in the path with your model name in `models/nlu/default/`
 2. Run `python test.py`
 
 You can also hit the blue Open in Gitpod button below to launch a ready-to-code environment (a VS Code-like interface in the browser with the dependencies pre-installed and the web server running).
