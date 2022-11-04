@@ -53,7 +53,7 @@ tensorflow==1.13.2
 tensorflow-estimator==1.13.0
 termcolor==1.1.0
 tqdm==4.43.0
-Twisted==19.10.0
+Twisted==22.10.0
 typing==3.7.4.1
 urllib3==1.25.8
 Werkzeug==1.0.0
